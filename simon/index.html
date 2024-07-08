@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
+        <script src="tic-tac-toe.js"></script>
+    </head>
+
+    <body>
+        <div id = "main_src">
+            <h2>This is a game of Tic Tac Toe. The first player is X. Win at all costs.</h2>
+            <div class = "base">
+                <div class = "row">
+                    <input type="text" id="top_left" class="box" onclick="top_left_action(), checkWin()" readonly>
+                    <input type="text" id="top_middle" class="box" onclick="top_middle_action(), checkWin()" readonly>
+                    <input type="text" id="top_right" class="box" onclick="top_right_action(), checkWin()" readonly>
+                </div>
+                <div class = "row">
+                    <input type="text" id="center_left" class="box" onclick="center_left_action(), checkWin()" readonly>
+                    <input type="text" id="center_middle" class="box" onclick="center_middle_action(), checkWin()" readonly>
+                    <input type="text" id="center_right" class="box" onclick="center_right_action(), checkWin()" readonly>
+                </div>
+                <div class = "row">
+                    <input type="text" id="bottom_left" class="box" onclick="bottom_left_action(), checkWin()" readonly>
+                    <input type="text" id="bottom_middle" class="box" onclick="bottom_middle_action(), checkWin()" readonly>
+                    <input type="text" id="bottom_right" class="box" onclick="bottom_right_action(), checkWin()" readonly>
+                </div>
+            </div>
+            <br><br>
+            <button id="reset_switch" class="reset_button" onclick="resetBoard()">Reset the Board?</button> 
+            <div class = "print">
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+</html>
