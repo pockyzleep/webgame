@@ -1,0 +1,15 @@
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\bin\Debug\net8.0\starting-c-sharp.exe
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\bin\Debug\net8.0\starting-c-sharp.deps.json
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\bin\Debug\net8.0\starting-c-sharp.runtimeconfig.json
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\bin\Debug\net8.0\starting-c-sharp.dll
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\bin\Debug\net8.0\starting-c-sharp.pdb
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.AssemblyInfoInputs.cache
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.AssemblyInfo.cs
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.csproj.CoreCompileInputs.cache
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.sourcelink.json
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.dll
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\refint\starting-c-sharp.dll
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.pdb
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\starting-c-sharp.genruntimeconfig.cache
+C:\Users\allen\Documents\GitHub\webgame\allen\starting-c-sharp\obj\Debug\net8.0\ref\starting-c-sharp.dll
