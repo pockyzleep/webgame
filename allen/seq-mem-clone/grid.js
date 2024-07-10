@@ -1,7 +1,7 @@
 let promptSeq = [];
 let userSeq = [];
 let level = 0;
-let clickable = false;
+let canClick = false;
 
 // launch game
 function startGame() {
@@ -19,7 +19,7 @@ function getRandomCell() {
     return Math.floor(Math.random() * 9);
 }
 
-// Light up cell given moment of time
+// light up cell given moment of time
 function flashCell(cell) {
     cell.classList.add('active');
     setTimeout(() => {
@@ -27,22 +27,22 @@ function flashCell(cell) {
     }, 500);
 }
 
-// Advance to next level
+// advance to next level
 function nextLevel() {
     level++;
     userSeq = [];
-    clickable = false;
+    canClick = false;
     promptSeq.push(getRandomCell());
     updateScoreboard();
     showSequence();
 }
 
-// Update the scoreboard
+// update the scoreboard
 function updateScoreboard() {
     document.getElementById('scoreboard').textContent = `Level: ${level}`;
 }
 
-// Display current sequence
+// display current sequence
 function showSequence() {
     promptSeq.forEach((cellIndex, index) => {
         setTimeout(() => {
@@ -50,13 +50,13 @@ function showSequence() {
         }, (index + 1) * 800);
     });
     setTimeout(() => {
-        clickable = true;
+        canClick = true;
     }, promptSeq.length * 800);
 }
 
-// Handle clicking
+// handle clicking
 function cellClicked(cellIndex) {
-    if (!clickable) return;
+    if (!canClick) return;
 
     userSeq.push(cellIndex);
     flashCell(document.getElementById(`cell-${cellIndex}`));
@@ -74,7 +74,7 @@ function cellClicked(cellIndex) {
     }
 }
 
-// Event listeners for each cell
+// event listeners for each cell
 document.querySelectorAll('.grid-item').forEach((cell, index) => {
     cell.addEventListener('click', () => {
         cellClicked(index);
