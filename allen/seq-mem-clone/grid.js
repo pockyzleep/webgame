@@ -3,7 +3,7 @@ let userSeq = [];
 let level = 0;
 let clickable = false;
 
-// Launch game
+// launch game
 function startGame() {
     promptSeq = [];
     userSeq = [];
